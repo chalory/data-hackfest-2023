@@ -1,0 +1,70 @@
+body{
+    color: rgb(255, 189, 189);
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+header{
+    height: 120px;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background-color: rgb(45, 45, 117);
+
+    position: relative;
+    text-align: left;
+}
+
+header h1{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    
+    color: rgb(255, 189, 189);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:lighter;
+    font-size: 90px;
+
+    position:absolute;
+    left: 20px;
+}
+
+.main{
+    position: relative;
+    
+    background-color: rgb(15, 15, 44);
+    padding: 30px;
+    margin: 0;
+    border: 0;
+
+    height: 1000px;
+}
+
+.main p{
+    font-size: 1cm;
+    line-height: 1.25cm;
+    width: 70%;
+}
+
+label{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+input, select{
+    margin-top: 20px;
+}
+
+.healthInfoForm{
+    width: 33%;
+    height: auto;
+
+    background-color: rgb(45, 45, 117);
+    border-radius: 5%;
+    border: 20px solid rgb(45, 45, 117);
+}
