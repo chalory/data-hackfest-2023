@@ -1,5 +1,5 @@
 body{
-    color: rgb(111, 111, 167);
+    color: rgb(46, 46, 107);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 0;
     margin: 0;
@@ -8,6 +8,8 @@ body{
 
     background-image: url("../images/Background.jpg");
     background-size: cover;
+    position:relative;
+    min-height: 100%;
 }
 
 header{
@@ -63,7 +65,7 @@ footer p, footer a{
     text-decoration: none;
 }
 
-.main{
+.main, .results{
     position: relative;
     
     z-index: 2;
@@ -73,8 +75,6 @@ footer p, footer a{
     border: 0;
 
     justify-content: center;
-
-    
 }
 
 .main p{
@@ -136,4 +136,24 @@ label{
     padding: 0.4cm;
     margin-bottom: 2cm;
     box-shadow: 10px;
+}
+
+.results{
+    padding: 2cm;
+    margin:0;
+    border:0;
+    position: relative;
+    min-height: fit-content;
+}
+
+.results p{
+    position: relative;
+    text-align: left;
+    font-size: 4cm;
+    line-height: 3.8cm;
+
+    border:0;
+    padding:0;
+    margin:0;
+    width: 70%;
 }
